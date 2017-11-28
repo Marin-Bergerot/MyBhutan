@@ -160,26 +160,26 @@ elif len(sys.argv)==5:
 	output.write("Month,Revenue,Cost,Floating fees\n")
 	cost_of_operation=0
 	for i in payments.keys():
-		output.write(i+","+str(sums[i])+","+str(out1[i][1])+","+str(out1[i][0])+"\n")
+		output.write(i+','+str(sums[i])+','+str(out1[i][1])+','+str(out1[i][0])+'\n')
 		cost_of_operation+=out1[i][1]
-	output.write("\nTotal cost:,"+str(cost_of_operation)+"\n\n")
+	output.write('\nTotal cost:,'+str(cost_of_operation)+'\n\n')
 
 	if out2==0:
 		output.write('"You got under the limit scale to benefit from our plan, bye bye"')
 	else:
-		output.write("Month,Revenue,Cost,IC fee,IC fix,Floating fees,Floating fix cost\n")
+		output.write('Month,Revenue,Cost,IC fee,IC fix,Floating fees,Floating fix cost\n')
 		cost_of_operation=0
 		for i in payments.keys():
-			output.write(i+","+str(sums[i])+","+str(out2[i][3])+","+str(out2[i][0][0])+","+str(out2[i][0][1])+","+str(out2[i][1])+","+str(out2[i][2])+"\n")
+			output.write(i+','+str(sums[i])+','+str(out2[i][3])+','+str(out2[i][0][0])+','+str(out2[i][0][1])+','+str(out2[i][1])+','+str(out2[i][2])+'\n')
 			cost_of_operation+=out2[i][3]
-		output.write("\nTotal cost:,"+str(cost_of_operation))
+		output.write('\nTotal cost:,'+str(cost_of_operation))
 
 
 		
 
 
 			
-	output.write("\n\nEND")
+	output.write('\n\nEND')
 		
 	output.close
 
@@ -190,9 +190,6 @@ elif len(sys.argv)==5:
 
 	end=time.time()
 	print("chrono= "+str(end-departure)+'s, or '+str(floor((end-departure)/60))+"m and "+str((end-departure)%60)+"s")	
-
-
-
 
 
 
