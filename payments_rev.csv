@@ -1,0 +1,56 @@
+Created (UTC),Amount,Currency,Converted Amount,Fee,Tax,Converted Currency,Status,Captured,Card Last4,Card Brand,Card Funding,Card Exp Year,Card Issue Country,Card CVC Status,Card AVS Zip Status,Payment Source Type
+11/5/2017 5:10,1075000,usd,1075000,31.48,0,usd,Paid,TRUE,5098,Visa,credit,2020,US,pass,pass,card
+11/1/2017 0:19,1075000,usd,1075000,17.25,0,usd,Paid,TRUE,2592,Visa,credit,2022,US,pass,pass,card
+10/18/2017 22:29,1075000,usd,1075000,0,0,usd,Paid,TRUE,4001,American Express,credit,2020,US,pass,fail,card
+10/18/2017 1:52,1075000,usd,1075000,24.86,0,usd,Paid,TRUE,4001,American Express,credit,2020,US,pass,pass,card
+10/12/2017 2:27,1075000,usd,1075000,25.47,0,usd,Paid,TRUE,3769,Visa,debit,2021,US,pass,pass,card
+10/11/2017 10:49,1075000,usd,1075000,0,0,usd,Paid,FALSE,774,Visa,credit,2020,LU,pass,,card
+10/7/2017 1:21,1075000,usd,1075000,35.97,0,usd,Paid,TRUE,2165,Visa,credit,2020,US,pass,pass,card
+10/5/2017 13:54,1075000,usd,1075000,1.61,0,usd,Paid,TRUE,4390,MasterCard,debit,2018,US,pass,pass,card
+10/5/2017 13:49,1075000,usd,1075000,18.86,0,usd,Paid,TRUE,4390,MasterCard,debit,2018,US,pass,pass,card
+10/2/2017 15:49,1075000,usd,1075000,113.98,0,usd,Paid,TRUE,2044,American Express,credit,2020,US,pass,pass,card
+9/28/2017 2:02,1075000,usd,1075000,29.3,0,usd,Paid,TRUE,6319,MasterCard,credit,2021,GB,pass,fail,card
+9/21/2017 2:37,1075000,usd,1075000,34.49,0,usd,Paid,TRUE,1009,American Express,credit,2020,US,pass,fail,card
+9/8/2017 17:51,1075000,usd,1075000,0,0,usd,Paid,FALSE,5201,Visa,credit,2021,BR,fail,,card
+9/4/2017 6:44,1075000,usd,1075000,316.11,0,usd,Paid,TRUE,6639,American Express,credit,2022,KR,pass,,card
+9/4/2017 4:36,1075000,usd,1075000,0,0,usd,Paid,FALSE,6639,American Express,credit,2022,KR,pass,,card
+9/4/2017 4:35,1075000,usd,1075000,0,0,usd,Paid,FALSE,6639,American Express,credit,2022,KR,pass,,card
+9/4/2017 4:31,1075000,usd,1075000,0,0,usd,Paid,FALSE,8039,Visa,credit,2021,KR,pass,,card
+9/4/2017 4:13,1075000,usd,1075000,260.47,0,usd,Paid,TRUE,1009,American Express,credit,2020,US,pass,pass,card
+9/4/2017 4:02,1075000,usd,1075000,0.25,0,usd,Paid,TRUE,,,,,,,,bank_account
+9/3/2017 7:07,1075000,usd,1075000,0,0,usd,Paid,FALSE,5251,MasterCard,credit,2021,KR,unavailable,,card
+9/3/2017 7:06,1075000,usd,1075000,0,0,usd,Paid,FALSE,5251,MasterCard,credit,2021,KR,unavailable,,card
+9/3/2017 7:03,1075000,usd,1075000,0,0,usd,Paid,FALSE,3116,MasterCard,credit,2022,KR,unavailable,,card
+9/3/2017 7:02,1075000,usd,1075000,0,0,usd,Paid,FALSE,3116,MasterCard,credit,2022,KR,unavailable,,card
+8/30/2017 21:48,1075000,usd,1075000,265.71,0,usd,Paid,TRUE,1543,Visa,credit,2021,US,pass,pass,card
+8/30/2017 3:40,1075000,usd,1075000,265.71,0,usd,Paid,TRUE,2362,Visa,credit,2019,US,pass,pass,card
+8/28/2017 19:47,1075000,usd,1075000,0,0,usd,Paid,FALSE,3019,MasterCard,credit,2020,NZ,unavailable,,card
+8/25/2017 5:26,1075000,usd,1075000,0,0,usd,Paid,FALSE,1543,Visa,credit,2021,US,pass,pass,card
+8/18/2017 17:33,1075000,usd,1075000,580.3,0,usd,Paid,TRUE,1009,American Express,credit,2020,US,pass,pass,card
+8/13/2017 23:49,1075000,usd,1075000,60.74,0,usd,Paid,TRUE,5278,Visa,credit,2022,US,pass,pass,card
+8/13/2017 23:38,1075000,usd,1075000,0,0,usd,Paid,FALSE,5278,Visa,credit,2022,US,fail,pass,card
+8/11/2017 12:08,1075000,usd,1075000,76.31,0,usd,Paid,TRUE,3816,Visa,credit,2019,HK,pass,,card
+8/8/2017 2:06,1075000,usd,1075000,54.7,0,usd,Paid,TRUE,431,Visa,credit,2020,US,pass,pass,card
+8/3/2017 9:05,1075000,usd,1075000,76.31,0,usd,Paid,TRUE,9717,Visa,credit,2019,HK,pass,,card
+8/2/2017 15:33,1075000,usd,1075000,0,0,usd,Paid,FALSE,5008,MasterCard,credit,2022,HK,unavailable,,card
+8/2/2017 15:28,1075000,usd,1075000,0,0,usd,Paid,FALSE,5008,MasterCard,credit,2022,HK,unavailable,,card
+8/2/2017 15:26,1075000,usd,1075000,0,0,usd,Paid,FALSE,5008,MasterCard,credit,2022,HK,unavailable,,card
+8/2/2017 15:24,1075000,usd,1075000,0,0,usd,Paid,FALSE,5008,MasterCard,credit,2022,HK,unavailable,,card
+8/2/2017 15:08,1075000,usd,1075000,0,0,usd,Paid,FALSE,5008,MasterCard,credit,2022,HK,pass,,card
+8/2/2017 4:44,1075000,usd,1075000,76.31,0,usd,Paid,TRUE,3816,Visa,credit,2019,HK,pass,,card
+8/2/2017 3:48,1075000,usd,1075000,240.25,0,usd,Paid,TRUE,8053,MasterCard,credit,2021,HK,pass,,card
+8/2/2017 2:54,1075000,usd,1075000,0.33,0,usd,Paid,TRUE,6314,Visa,debit,2021,US,pass,pass,card
+7/21/2017 5:29,1075000,usd,1075000,0,0,usd,Paid,TRUE,4587,Visa,prepaid,2021,US,pass,pass,card
+7/21/2017 5:28,1075000,usd,1075000,0,0,usd,Paid,FALSE,4587,Visa,prepaid,2021,US,pass,unavailable,card
+9/29/2015 6:49,1075000,usd,1075000,203.21,0,usd,Paid,TRUE,8614,Visa,credit,2019,AU,pass,,card
+8/9/2015 17:55,1075000,usd,1075000,39.73,0,usd,Paid,TRUE,7650,Visa,credit,2018,US,,,card
+8/6/2015 0:56,1075000,usd,1075000,199.53,0,usd,Paid,TRUE,7650,Visa,credit,2018,US,,,card
+6/12/2015 18:41,1075000,usd,1075000,31.62,0,usd,Paid,TRUE,6563,MasterCard,debit,2016,US,,,card
+6/12/2015 0:21,1075000,usd,1075000,58.3,0,usd,Paid,TRUE,6563,MasterCard,debit,2016,US,,,card
+6/11/2015 22:53,1075000,usd,1075000,0,0,usd,Paid,FALSE,6563,MasterCard,debit,2016,US,pass,,card
+6/11/2015 22:45,1075000,usd,1075000,0,0,usd,Paid,FALSE,4628,MasterCard,credit,2016,US,pass,,card
+6/11/2015 22:42,1075000,usd,1075000,0,0,usd,Paid,FALSE,6563,MasterCard,debit,2016,US,pass,,card
+6/8/2015 23:56,1075000,usd,1075000,59.9,0,usd,Paid,TRUE,3426,Visa,credit,2016,US,pass,,card
+6/1/2015 17:37,1075000,usd,1075000,58.18,0,usd,Paid,TRUE,3426,Visa,credit,2016,US,pass,,card
+5/25/2015 6:12,1075000,usd,1075000,0.33,0,usd,Paid,TRUE,3008,American Express,credit,2020,US,pass,,card
+5/4/2015 19:41,1075000,usd,1075000,0,0,usd,Paid,TRUE,3008,American Express,credit,2020,US,pass,,card
