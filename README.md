@@ -1,10 +1,9 @@
-"# MyBhutan" 
+# MyBhutan
 
 To successfully launch the Excel model, please make sure:
 - all the files (analysis.py, book1 and your csv file) are in the same directory
+- the input has to be a csv file with the same format as payments.csv
 - you have python 3.6 installed on your laptop
-
-Input: the input has to be a csv file with the same format as payments.csv
 
 Output sheet "Result" is in "Book1.xls", we named:
 - "floating fee" the fee expressed as a percent
