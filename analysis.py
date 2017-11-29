@@ -18,7 +18,7 @@ elif len(sys.argv)==1:
 
 elif len(sys.argv)==5:
 
-	def get_month(date):
+	def get_month(date): 
 		letter=date[0]
 		a=date[1]
 		if a!="/":
@@ -56,38 +56,38 @@ elif len(sys.argv)==5:
 # Large Purchase (10,000$ to above —> not eligible):  0.70% + $49,5
 # Business Cards: 2.05% + 0.10$
 # GlobalCommercialB2B Virtual Payments US: 2.0%
-						IC.append([2.4,0.1])
+						IC.append([0.024,0.1])
 
 					if brand == "Visa" and fund =="debit":
 # Debit : travel service 1.19% + 0.10$
-						IC.append([1.19,0.1])
+						IC.append([0.0119,0.1])
 
 					if brand == "American Express" and fund == "credit":
 #Credit 2.60% (if <1000 and >100) to 3.00% (if >1000) +0.1$
 						if float(l[row][1]) < 1000: 
-							IC.append([2.6,0.1])
+							IC.append([0.026,0.1])
 						else:
-							IC.append([3.0,0.1])
+							IC.append([0.030,0.1])
 
 					if brand == "American Express" and fund =="debit":
 #Credit 2.60% (if <1000 and >100) to 3.00% (if >1000) +0.1$
 						if float(l[row][1]) < 1000: 
-							IC.append([2.6,0.1])
+							IC.append([0.026,0.1])
 						else:
-							IC.append([3.0,0.1])
+							IC.append([0.030,0.1])
 
 					if brand == "MasterCard" and fund =="credit":
 # High value card or World Elite (credit) : 2.75% +0.10$ (only 2.00% if >2500$)
 # World card: 2.30% + 0.10$
 # CommercialBusiness-to-Business- US Domestic: 2.00%
 						if float(l[row][1]) > 2500 : 
-							IC.append([2.0,0.1])
+							IC.append([0.020,0.1])
 						else:
-							IC.append([2.75,0.1])
+							IC.append([0.0275,0.1])
 
 					if l[row][16] == "bank_account":
 						print(l[row][16])
-						IC.append([0.05, 0.50])
+						IC.append([0.0005, 0.50])
 
 
 					if brand == "MasterCard" and fund =="debit":
@@ -95,9 +95,9 @@ elif len(sys.argv)==5:
 # World card: 2.30% + 0.10$
 # CommercialBusiness-to-Business- US Domestic: 2.00%
 						if float(l[row][1]) > 2500 : 
-							IC.append([2.0,0.1])
+							IC.append([0.020,0.1])
 						else:
-							IC.append([2.75,0.1])
+							IC.append([0.0275,0.1])
 			row+=1
 		return IC
 		
@@ -246,6 +246,7 @@ elif len(sys.argv)==5:
 
 	end=time.time()
 	print("chrono= "+str(end-departure)+'s, or '+str(floor((end-departure)/60))+"m and "+str((end-departure)%60)+"s")	
+
 
 
 
