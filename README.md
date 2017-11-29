@@ -5,6 +5,11 @@ To successfully launch the Excel model, please make sure:
 - the input has to be a csv file with the same format as payments.csv
 - you have python 3.6 installed on your laptop
 
+About the files in the directory:
+- payments.csv: the original file provided by Matthew
+- payments_rev.csv: same file as payments.csv with larger amounts of money
+- payments_dev.csv: a file with the same data as payments.csv duplicated in order to have revenues larger than $1million per month (in order to compare models 1 and 2)
+
 Output sheet "Result" is in "Book1.xls", we named:
 - "floating fee" the fee expressed as a percent
 - "fix cost" the constant part of the fee
